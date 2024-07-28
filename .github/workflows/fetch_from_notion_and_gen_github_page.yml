@@ -21,7 +21,6 @@ jobs:
         with:
           python-version: '3.8.0'
       - run: pip install notion-client
-      - run: python update_content.py
       - run: git clone --branch master --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./scripts
       - run: python scripts/main.py
       - run: git clone --branch dev --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./themes/moments
