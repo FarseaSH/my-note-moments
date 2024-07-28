@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      NOTION_AUTH: ${{secrets.NOTION_AUTH}}
+      NOTION_SECRET: ${{secrets.NOTION_SECRET}}
       NOTION_DATABASE_ID: ${{secrets.NOTION_DATABASE_ID}}
       HUGO_VERSION: 0.85.0
     steps:
