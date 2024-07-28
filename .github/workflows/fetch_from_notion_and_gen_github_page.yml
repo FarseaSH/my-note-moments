@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.8.0'
       - run: pip install notion-client
-      - run: git clone --branch master --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./scripts
+      - run: git clone --branch master --depth 1 https://github.com/FarseaSH/notion-moments-database-parser.git ./scripts
       - run: python scripts/main.py
       - run: git clone --branch dev --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./themes/moments
       - name: Install Hugo CLI
