@@ -1,0 +1,17 @@
+baseURL = ""
+languageCode = "zh-Hans"
+title = "Your Moments"
+
+theme = "moments"
+
+paginate = 10
+paginatePath = '.'
+
+
+[params]
+    title = "Your Moments"
+    signature = "Time goes from present to past."
+    cover = "default_background.png"
+
+    name = "Default User"
+    avatar = "default_avatar.png"
