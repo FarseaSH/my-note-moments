@@ -1,9 +1,9 @@
 name: fetch content from Notion & public moments to github page
 on:
   - workflow_dispatch
-  # - push
-  #- schedule:
-    #- cron:  '0 * */1 * *'
+  - push
+  - schedule:
+    - cron:  '0,30 * * * *'
 
 permissions: write-all
 

@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "zh-Hans"
-title = "Your Moments"
+title = "闲读杂记"
 
 theme = "moments"
 
@@ -9,9 +9,9 @@ paginatePath = '.'
 
 
 [params]
-    title = "Your Moments"
-    signature = "Time goes from present to past."
-    cover = "default_background.png"
+    title = "闲读杂记"
+    signature = "用心探索·记录世界"
+    cover = "https://github.com/user-attachments/assets/58656571-bfa6-4653-97e2-05b5e7cf08d0"
 
     name = "Default User"
-    avatar = "default_avatar.png"
+    avatar = "https://github.com/user-attachments/assets/75642f11-a3cf-4de6-a883-0198a6fffab9"
