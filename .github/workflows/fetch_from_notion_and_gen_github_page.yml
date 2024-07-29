@@ -1,7 +1,7 @@
 name: fetch content from Notion & public moments to github page
 on:
-  - workflow_dispatch
-  - push
+  - workflow_dispatch:
+  - push:
   - schedule:
     - cron:  '0,30 * * * *'
 
