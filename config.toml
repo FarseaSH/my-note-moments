@@ -1,17 +1,9 @@
-baseURL = ""
-languageCode = "zh-Hans"
-title = "闲读杂记"
-
 theme = "moments"
 
 paginate = 10
 paginatePath = '.'
 
-
 [params]
     title = "闲读杂记"
     signature = "用心探索·记录世界"
-    cover = "https://s21.ax1x.com/2024/07/29/pkLN7Ct.png"
-
-    name = "Default User"
-    avatar = "https://s21.ax1x.com/2024/07/29/pkLNhHH.png"
+    name = "杜重（笔记版"
