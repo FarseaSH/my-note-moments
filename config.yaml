@@ -1,0 +1,12 @@
+theme: "moments"
+
+pagination:
+    pagerSize: 10
+    path: "."
+
+params:
+    title: "闲读杂记"
+    signature: "拾藏大千世界中所遇到的每份好奇"
+    name: "杜重(笔记版"
+    avatar: "avatar.png"
+    
