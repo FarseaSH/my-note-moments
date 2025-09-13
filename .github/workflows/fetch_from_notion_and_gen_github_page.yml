@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4 
       - uses: actions/setup-python@v2
         with:
-          python-version: '3.8.0'
+          python-version: '3.11.13'
       - run: pip install notion-client
       - run: git clone --branch master --depth 1 https://github.com/FarseaSH/notion-moments-database-parser.git ./scripts
       - run: python scripts/main.py
