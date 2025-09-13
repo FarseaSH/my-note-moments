@@ -9,11 +9,11 @@ permissions: write-all
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       NOTION_SECRET: ${{secrets.NOTION_SECRET}}
       NOTION_DATABASE_ID: ${{secrets.NOTION_DATABASE_ID}}
-      HUGO_VERSION: 0.85.0
+      HUGO_VERSION: 0.147.8
     steps:
       - name: Checkout repo fileS
         uses: actions/checkout@v4 
@@ -26,7 +26,7 @@ jobs:
       - run: git clone --branch dev --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./themes/moments
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_extended_0.85.0_Linux-64bit.deb \
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.147.8/hugo_extended_0.147.8_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
         run: sudo snap install dart-sass
