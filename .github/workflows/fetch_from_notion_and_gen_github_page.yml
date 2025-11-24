@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.11.13'
-      - run: pip install notion-client
+      - run: pip install notion-client==2.5.0
       - run: git clone --branch master --depth 1 https://github.com/FarseaSH/notion-moments-database-parser.git ./scripts
       - run: python scripts/main.py
       - run: git clone --branch dev --depth 1 https://github.com/FarseaSH/hugo-theme-moments.git ./themes/moments
